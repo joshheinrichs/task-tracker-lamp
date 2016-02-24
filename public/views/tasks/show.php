@@ -22,7 +22,7 @@
 <script language="javascript" type="text/javascript">
     window.onload = function () {
         var comments =<?php echo json_encode($comments); ?>;
-        
+
         var ul = document.getElementById("comments_list");
         for (var i = 0; i < comments.length; i++) {
 

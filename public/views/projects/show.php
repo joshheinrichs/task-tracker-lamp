@@ -33,7 +33,7 @@
         var inreview = document.getElementById("inreview_list");
         var done = document.getElementById("done_list");
 
-        for (var i=0; i<tasks.length; i++) {
+        for (var i = 0; i < tasks.length; i++) {
 
             var a = document.createElement("a");
             a.textContent = tasks[i].title;
